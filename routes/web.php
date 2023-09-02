@@ -18,7 +18,7 @@ Route::get('/', function () {
 
 use App\Http\Controllers\MyShop\myShopController;
 
-Route::get('/MyShop.shop_category', [myShopController::class, 'categores']);
+Route::get('/MyShop.shop_categoryV2', [myShopController::class, 'categores']);
 
 
 
