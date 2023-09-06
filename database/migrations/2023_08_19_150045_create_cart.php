@@ -15,7 +15,7 @@ return new class extends Migration
             $table->increments('id');
             $table->integer('good_id');
             $table->integer('qiantity');
-            $table->timestamps('date');
+            $table->timestamp('created_at')->nullable();
         });
     }
 

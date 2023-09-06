@@ -16,12 +16,13 @@ class myShopController extends Controller
 {
     public function shop_404()
     {
+        // return "I am confrollwer!";
         // $MyShop_array = [];
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_shop_404', compact('MyShop_array'));
+
+        return view('MyShop.shop_404');
     }
     public function about()
     {
@@ -29,8 +30,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_about', compact('MyShop_array'));
+
+        return view('MyShop.shop_about');
     }
     public function blog()
     {
@@ -38,8 +39,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_blog', compact('MyShop_array'));
+
+        return view('MyShop.shop_blog');
     }
     public function blogdetail()
     {
@@ -47,8 +48,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_blogdetail', compact('MyShop_array'));
+
+        return view('MyShop.shop_blogdetail');
     }
     public function cartpage()
     {
@@ -56,8 +57,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_cartpage', compact('MyShop_array'));
+
+        return view('MyShop.shop_cartpage');
     }
     public function categoryV1_2()
     {
@@ -65,8 +66,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_categoryV1_2', compact('MyShop_array'));
+
+        return view('MyShop.shop_categoryV1_2');
     }
     public function categoryV1()
     {
@@ -74,8 +75,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_categoryV1', compact('MyShop_array'));
+
+        return view('MyShop.shop_categoryV1');
     }
     public function categoryV2_2()
     {
@@ -83,8 +84,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_categoryV2_2', compact('MyShop_array'));
+
+        return view('MyShop.shop_categoryV2_2');
     }
     public function categoryV2()
     {
@@ -92,8 +93,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_categoryV2', compact('MyShop_array'));
+
+        return view('MyShop.shop_categoryV2');
     }
     public function categoryV3_2()
     {
@@ -101,8 +102,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_categoryV3_2', compact('MyShop_array'));
+
+        return view('MyShop.shop_categoryV3_2');
     }
     public function categoryV3()
     {
@@ -110,8 +111,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_categoryV3', compact('MyShop_array'));
+
+        return view('MyShop.shop_categoryV3');
     }
     public function categoryV4_2()
     {
@@ -119,8 +120,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_categoryV4_2', compact('MyShop_array'));
+
+        return view('MyShop.shop_categoryV4_2');
     }
     public function categoryV4()
     {
@@ -128,8 +129,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_categoryV4', compact('MyShop_array'));
+
+        return view('MyShop.shop_categoryV4');
     }
     public function checkout()
     {
@@ -137,8 +138,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_checkout', compact('MyShop_array'));
+
+        return view('MyShop.shop_checkout');
     }
     public function compare()
     {
@@ -146,8 +147,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_compare', compact('MyShop_array'));
+
+        return view('MyShop.shop_compare');
     }
     public function contact()
     {
@@ -155,8 +156,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_contact', compact('MyShop_array'));
+
+        return view('MyShop.shop_contact');
     }
     public function homeV1()
     {
@@ -164,8 +165,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_homeV1', compact('MyShop_array'));
+
+        return view('MyShop.shop_homeV1');
     }
     public function homeV2()
     {
@@ -173,8 +174,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_homeV2', compact('MyShop_array'));
+
+        return view('MyShop.shop_homeV2');
     }
     public function homeV3()
     {
@@ -182,8 +183,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_homeV3', compact('MyShop_array'));
+
+        return view('MyShop.shop_homeV3');
     }
     public function productV1()
     {
@@ -191,8 +192,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_productV1', compact('MyShop_array'));
+
+        return view('MyShop.shop_productV1');
     }
     public function productV2()
     {
@@ -200,8 +201,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_productV2', compact('MyShop_array'));
+
+        return view('MyShop.shop_productV2');
     }
     public function productV3()
     {
@@ -209,8 +210,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_productV3', compact('MyShop_array'));
+
+        return view('MyShop.shop_productV3');
     }
     public function quickview()
     {
@@ -218,8 +219,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_quickview', compact('MyShop_array'));
+
+        return view('MyShop.shop_quickview');
     }
     public function trackyourorder()
     {
@@ -227,8 +228,8 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_trackyourorder', compact('MyShop_array'));
+
+        return view('MyShop.shop_trackyourorder');
     }
     public function wishlist()
     {
@@ -236,7 +237,7 @@ class myShopController extends Controller
         // foreach (MyShop::all() as $MyShop) {
         //     $MyShop_array[] = $MyShop->MyShopname;
         // }
-        
-        // return view('shop_wishlist', compact('MyShop_array'));
+
+        return view('MyShop.shop_wishlist');
     }
 }

@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamps('date');
+            $table->timestamp('created_at')->nullable();
             $table->string('goods');
             $table->string('status');
         });
