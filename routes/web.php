@@ -42,6 +42,7 @@ Route::get('/shop_productV1', [myShopController::class, 'productV1']);
 Route::get('/shop_productV2', [myShopController::class, 'productV2']);
 Route::get('/shop_productV3', [myShopController::class, 'productV3']);
 Route::get('/shop_quickview', [myShopController::class, 'quickview']);
+Route::get('/shop_registration', [myShopController::class, 'registration']);
 Route::get('/shop_trackyourorder', [myShopController::class, 'trackyourorder']);
 Route::get('/shop_wishlist', [myShopController::class, 'wishlist']);
 

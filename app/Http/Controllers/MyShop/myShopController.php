@@ -222,6 +222,15 @@ class myShopController extends Controller
 
         return view('MyShop.shop_quickview');
     }
+    public function registration()
+    {
+        // $MyShop_array = [];
+        // foreach (MyShop::all() as $MyShop) {
+        //     $MyShop_array[] = $MyShop->MyShopname;
+        // }
+
+        return view('MyShop.shop_registration');
+    }
     public function trackyourorder()
     {
         // $MyShop_array = [];
