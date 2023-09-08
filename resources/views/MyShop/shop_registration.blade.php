@@ -1,27 +1,27 @@
 <x-header></x-header>
 
-<h3>Registration Form</h3>
+<h3>ФОРМА ДЛЯ РЕГИСТРАЦИИ</h3>
 <?php
-if (!isset($_POST['regbtn'])) {
+if (!isset($_GET['regbtn'])) {
     ?>
-    <form action="" method="post">
+    <form action="" method="GET">
         <div class="form-group">
-            <label for="login">Login:</label>
+            <label for="login">Авторизоваться:</label>
             <input type="text" class="form-control" name="login">
         </div>
         <div class="form-group">
-            <label for="pass1">Password:</label>
+            <label for="pass1">Пароль:</label>
             <input type="password" class="form-control" name="pass1">
         </div>
         <div class="form-group">
-            <label for="pass2">Confirm Password:</label>
+            <label for="pass2">Полтверждение паролья:</label>
             <input type="password" class="form-control" name="pass2">
         </div>
         <div class="form-group">
-            <label for="email">Email address:</label>
+            <label for="email">Адрес электронной почты:</label>
             <input type="text" class="form-control" name="email">
         </div>
-        <button type="submit" class="btn btn-dark mt-2" name="regbtn">Register</button>
+        <button type="submit" class="btn btn-dark mt-2" name="regbtn">Регистрироватся</button>
     </form>
     <?php
 } else {
@@ -30,4 +30,5 @@ if (!isset($_POST['regbtn'])) {
     }
 }
 ?>
+<br>
 <x-footer></x-footer>

@@ -36,6 +36,7 @@ Route::get('/shop_checkout', [myShopController::class, 'checkout']);
 Route::get('/shop_compare', [myShopController::class, 'compare']);
 Route::get('/shop_contact', [myShopController::class, 'contact']);
 Route::get('/shop_homeV1', [myShopController::class, 'homeV1']);
+// Route::get('/shop_homeV1', 'myShopController')->name('homeV1');
 Route::get('/shop_homeV2', [myShopController::class, 'homeV2']);
 Route::get('/shop_homeV3', [myShopController::class, 'homeV3']);
 Route::get('/shop_productV1', [myShopController::class, 'productV1']);

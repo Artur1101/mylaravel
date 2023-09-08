@@ -1,0 +1,23 @@
+/*------------------------------------------------------------------
+
+[Table of contents]
+1. Registration
+
+-------------------------------------------------------------------*/
+h3 {
+    text-align: center;
+}
+
+.form-group{
+    max-width: 1200px;
+    min-width: 500px;
+    margin: 0px 0px 0px 345px;
+}
+
+.btn {
+    background-color: rgb(255, 5, 5);
+    color: rgb(249, 249, 249);
+    margin: 0px 0px 25px 345px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}

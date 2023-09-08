@@ -22,6 +22,7 @@
     <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/registration.css">
 </head>
 
 <body>
@@ -44,9 +45,9 @@
                     <a href="#">Главная</a>
                     <span class="icon-sub-menu"></span>
                     <ul class="menu-level1 js-open-menu">
-                        <li class="level2"><a href="home_v1.html" title="">Главная 1</a></li>
-                        <li class="level2"><a href="home_v2.html" title="">Главная 2</a></li>
-                        <li class="level2"><a href="home_v3.html" title="">Главная 3</a></li>
+                        <li class="level2"><a href="shop_homeV1.php" title="">Главная 1</a></li>
+                        <li class="level2"><a href="shop_homeV2.php" title="">Главная 2</a></li>
+                        <li class="level2"><a href="shop_homeV3.php" title="">Главная 3</a></li>
                     </ul>
                 </li>
                 <li class="level1 active dropdown"><a href="#">Магазин</a>
