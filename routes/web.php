@@ -17,8 +17,10 @@ Route::get('/', function () {
 });
 
 use App\Http\Controllers\MyShop\myShopController;
+use App\Http\Controllers\UserController;
 
 
+Route::get('/index', [myShopController::class, 'index']);
 Route::get('/shop_404', [myShopController::class, 'shop_404']);
 Route::get('/shop_about', [myShopController::class, 'about']);
 Route::get('/shop_blog', [myShopController::class, 'blog']);
@@ -43,7 +45,7 @@ Route::get('/shop_productV1', [myShopController::class, 'productV1']);
 Route::get('/shop_productV2', [myShopController::class, 'productV2']);
 Route::get('/shop_productV3', [myShopController::class, 'productV3']);
 Route::get('/shop_quickview', [myShopController::class, 'quickview']);
-Route::get('/shop_registration', [myShopController::class, 'registration']);
+Route::get('/shop_registration', [UserController::class, 'registration']);
 Route::get('/shop_trackyourorder', [myShopController::class, 'trackyourorder']);
 Route::get('/shop_wishlist', [myShopController::class, 'wishlist']);
 

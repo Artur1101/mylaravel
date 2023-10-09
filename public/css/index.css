@@ -1,0 +1,36 @@
+/*------------------------------------------------------------------
+
+[Table of contents]
+1. Index
+
+-------------------------------------------------------------------*/
+
+.content{
+    display: block;
+    background-color: rgb(125, 206, 108);
+    color: rgb(5, 19, 63);
+    padding: 25px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+
+
+}
+
+h2{
+    text-align: center;
+
+}
+
+.btn1 {
+    background-color: rgb(255, 5, 5);
+    color: rgb(249, 249, 249);
+    font-size: 25px;
+    margin: 0px 0px 25px 800px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    border-radius: 10px;
+}

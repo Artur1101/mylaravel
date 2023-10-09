@@ -14,7 +14,7 @@ if (!isset($_GET['regbtn'])) {
             <input type="password" class="form-control" name="pass1">
         </div>
         <div class="form-group">
-            <label for="pass2">Полтверждение паролья:</label>
+            <label for="pass2">Подтверждение паролья:</label>
             <input type="password" class="form-control" name="pass2">
         </div>
         <div class="form-group">
@@ -26,7 +26,7 @@ if (!isset($_GET['regbtn'])) {
     <?php
 } else {
     if (register($_GET['login'], $_GET['pass1'], $_GET['pass2'],$_GET['email'])) {
-        echo "<h3/><span style='color:green;'>New User Added!</span><h3/>";
+        echo "<h3/><span style='color:green;'>Новый пользователь зарегистрирован!</span><h3/>";
     }
 }
 ?>

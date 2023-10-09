@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" type="text/css" href="css/registration.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
 <body>
@@ -45,9 +46,9 @@
                     <a href="#">Главная</a>
                     <span class="icon-sub-menu"></span>
                     <ul class="menu-level1 js-open-menu">
-                        <li class="level2"><a href="shop_homeV1.php" title="">Главная 1</a></li>
-                        <li class="level2"><a href="shop_homeV2.php" title="">Главная 2</a></li>
-                        <li class="level2"><a href="shop_homeV3.php" title="">Главная 3</a></li>
+                        <li class="level2"><a href="shop_homeV1" title="">Главная 1</a></li>
+                        <li class="level2"><a href="shop_homeV2" title="">Главная 2</a></li>
+                        <li class="level2"><a href="shop_homeV3" title="">Главная 3</a></li>
                     </ul>
                 </li>
                 <li class="level1 active dropdown"><a href="#">Магазин</a>
@@ -57,44 +58,44 @@
                             <li class="level2">
                                 <a href="#">Тип магазина</a>
                                 <ul class="menu-level-2">
-                                    <li class="level3"><a href="category_v1.html" title="">Категория V1</a></li>
-                                    <li class="level3"><a href="category_v1_2.html" title="">Категория V1.2</a>
+                                    <li class="level3"><a href="shop_categoryV1" title="">Категория V1</a></li>
+                                    <li class="level3"><a href="shop_categoryV1_2" title="">Категория V1.2</a>
                                     </li>
-                                    <li class="level3"><a href="category_v2.html" title="">Категория V2</a></li>
-                                    <li class="level3"><a href="category_v2_2.html" title="">Категория V2.2</a>
+                                    <li class="level3"><a href="shop_categoryV2" title="">Категория V2</a></li>
+                                    <li class="level3"><a href="shop_categoryV2_2" title="">Категория V2.2</a>
                                     </li>
-                                    <li class="level3"><a href="category_v3.html" title="">Категория V3</a>
+                                    <li class="level3"><a href="shop_categoryV3" title="">Категория V3</a>
                                     </li>
-                                    <li class="level3"><a href="category_v3_2.html" title="">Категория V3.2</a>
+                                    <li class="level3"><a href="shop_categoryV3_2" title="">Категория V3.2</a>
                                     </li>
-                                    <li class="level3"><a href="category_v4.html" title="">Категория V4</a>
+                                    <li class="level3"><a href="shop_categoryV4" title="">Категория V4</a>
                                     </li>
-                                    <li class="level3"><a href="category_v4_2.html" title="">Категория V4.2</a>
+                                    <li class="level3"><a href="shop_categoryV4_2" title="">Категория V4.2</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="level2">
                                 <a href="#">Один тип продукта</a>
                                 <ul class="menu-level-2">
-                                    <li class="level3"><a href="product_v1.html" title="">Одноместный продукт
+                                    <li class="level3"><a href="shop_productV1" title="">Одноместный продукт
                                             1</a></li>
-                                    <li class="level3"><a href="product_v2.html" title="">Одноместный продукт
+                                    <li class="level3"><a href="shop_productV2" title="">Одноместный продукт
                                             2</a></li>
-                                    <li class="level3"><a href="product_v3.html" title="">Одноместный продукт
+                                    <li class="level3"><a href="shop_productV3" title="">Одноместный продукт
                                             3</a></li>
                                 </ul>
                             </li>
                             <li class="level2">
                                 <a href="#">Страница заказа</a>
                                 <ul class="menu-level-2">
-                                    <li class="level3"><a href="cartpage.html" title="">Страница корзины</a>
+                                    <li class="level3"><a href="shop_cartpage" title="">Страница корзины</a>
                                     </li>
-                                    <li class="level3"><a href="checkout.html" title="">Проверить</a></li>
-                                    <li class="level3"><a href="compare.html" title="">Сравнивать</a></li>
-                                    <li class="level3"><a href="quickview.html" title="">Быстрый просмотр</a>
+                                    <li class="level3"><a href="shop_checkout" title="">Проверить</a></li>
+                                    <li class="level3"><a href="shop_compare" title="">Сравнивать</a></li>
+                                    <li class="level3"><a href="shop_quickview" title="">Быстрый просмотр</a>
                                     </li>
-                                    <li class="level3"><a href="trackyourorder.html">Быстрый просмотр</a></li>
-                                    <li class="level3"><a href="wishlist.html">Список желаний</a></li>
+                                    <li class="level3"><a href="shop_trackyourorder">Быстрый просмотр</a></li>
+                                    <li class="level3"><a href="shop_wishlist">Список желаний</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -105,17 +106,17 @@
                     <a href="#">Страницы</a>
                     <span class="icon-sub-menu"></span>
                     <ul class="menu-level1 js-open-menu">
-                        <li class="level2"><a href="about.html" title="About Us ">О нас </a></li>
-                        <li class="level2"><a href="contact.html" title="Contact">Контакты</a></li>
-                        <li class="level2"><a href="404.html" title="404">404</a></li>
+                        <li class="level2"><a href="shop_about" title="About Us ">О нас </a></li>
+                        <li class="level2"><a href="shop_contact" title="Contact">Контакты</a></li>
+                        <li class="level2"><a href="shop_404" title="404">404</a></li>
                     </ul>
                 </li>
                 <li class="level1">
                     <a href="#">Блог</a>
                     <span class="icon-sub-menu"></span>
                     <ul class="menu-level1 js-open-menu">
-                        <li class="level2"><a href="blog.html" title="Blog Standar">Категория блога</a></li>
-                        <li class="level2"><a href="blogdetail.html" title="Blog Gird">Детали блога</a></li>
+                        <li class="level2"><a href="shop_blog" title="Blog Standar">Категория блога</a></li>
+                        <li class="level2"><a href="shop_blogdetail" title="Blog Gird">Детали блога</a></li>
                     </ul>
                 </li>
             </ul>
@@ -231,7 +232,7 @@
                                     </div>
                                     <input type="text" name="s"
                                         placeholder="Введите ключевое слово здесь . . .">
-                                    <button type="submit" class="animate-default button-hover-red">Search</button>
+                                    <button type="submit" class="animate-default button-hover-red">Поиск</button>
                                 </form>
                             </div>
                             <div class="clearfix icon-search-mobile absolute">
@@ -310,17 +311,17 @@
                                         <li class="relative">
                                             <a class="animate-default center-vertical-image" href="home_v1.html"><img
                                                     src="img/home_1_menu-min.png" alt=""></a>
-                                            <p><a href="home_v1.html">Дом 1</a></p>
+                                            <p><a href="shop_homeV1">Дом 1</a></p>
                                         </li>
                                         <li class="relative">
                                             <a class="animate-default center-vertical-image" href="home_v2.html"><img
                                                     src="img/home_2_menu-min.png" alt=""></a>
-                                            <p><a href="home_v2.html">Дом 2</a></p>
+                                            <p><a href="shop_homeV2">Дом 2</a></p>
                                         </li>
                                         <li class="relative">
                                             <a class="animate-default center-vertical-image" href="home_v3.html"><img
                                                     src="img/home_3_menu-min.png" alt=""></a>
-                                            <p><a href="home_v3.html">Дом 3</a></p>
+                                            <p><a href="shop_homeV3">Дом 3</a></p>
                                         </li>
                                     </ul>
                                 </li>
@@ -330,45 +331,45 @@
                                         <ul>
                                             <li>Тип категории</li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="category_v1.html">Категория v1</a></li>
+                                                    href="shop_categoryV1">Категория v1</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="category_v1_2.html">Категория v1.2</a></li>
+                                                    href="shop_categoryV1_2">Категория v1.2</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="category_v2.html">Категория v2</a></li>
+                                                    href="shop_categoryV2">Категория v2</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="category_v2_2.html">Категория v2.2</a></li>
+                                                    href="shop_categoryV2_2">Категория v2.2</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="category_v3.html">Категория v3</a></li>
+                                                    href="shop_categoryV3">Категория v3</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="category_v3_2.html">Категория v3.2</a></li>
+                                                    href="shop_categoryV3_2">Категория v3.2</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="category_v4.html">Категория v4</a></li>
+                                                    href="shop_categoryV4">Категория v4</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="category_v4_2.html">Категория v4.2</a></li>
+                                                    href="shop_categoryV4_2">Категория v4.2</a></li>
                                         </ul>
                                         <ul>
                                             <li>Один тип продукта</li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="product_v1.html">Одноместный продукт 1</a></li>
+                                                    href="shop_productV1">Одноместный продукт 1</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="product_v2.html">Одноместный продукт 2</a></li>
+                                                    href="shop_productV2">Одноместный продукт 2</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="product_v3.html">Одноместный продукт 3</a></li>
+                                                    href="shop_productV3">Одноместный продукт 3</a></li>
                                         </ul>
                                         <ul>
                                             <li>Страница заказа</li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="cartpage.html">Страница корзины</a></li>
+                                                    href="shop_cartpage">Страница корзины</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="checkout.html">Проверить</a></li>
+                                                    href="shop_checkout">Проверить</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="compare.html">Сравнивать</a></li>
+                                                    href="shop_compare">Сравнивать</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="quickview.html">Быстрый просмотр</a></li>
+                                                    href="shop_quickview">Быстрый просмотр</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="trackyourorder.html">Отследить заказ</a></li>
+                                                    href="shop_trackyourorder">Отследить заказ</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                    href="wishlist.html">Список желаний</a></li>
+                                                    href="shop_wishlist">Список желаний</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -378,18 +379,18 @@
                                         <li class="title-hover-red"><a class="animate-default" href="about.html">О
                                                 нас</a></li>
                                         <li class="title-hover-red"><a class="animate-default"
-                                                href="contact.html">Контакты</a></li>
+                                                href="shop_contact">Контакты</a></li>
                                         <li class="title-hover-red"><a class="animate-default"
-                                                href="404.html">404</a></li>
+                                                href="shop_404">404</a></li>
                                     </ul>
                                 </li>
                                 <li class="title-hover-red">
                                     <a class="animate-default" href="#">Блог</a>
                                     <ul>
                                         <li class="title-hover-red"><a class="animate-default"
-                                                href="blog.html">Категория блога</a></li>
+                                                href="shop_blog">Категория блога</a></li>
                                         <li class="title-hover-red"><a class="animate-default"
-                                                href="blogdetail.html">Детали блога</a></li>
+                                                href="shop_blogdetail">Детали блога</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -460,19 +461,19 @@
                                                 <a class="animate-default center-vertical-image"
                                                     href="home_v1.html"><img src="img/home_1_menu-min.png"
                                                         alt=""></a>
-                                                <p><a href="home_v1.html">Дом 1</a></p>
+                                                <p><a href="shop_homeV1">Дом 1</a></p>
                                             </li>
                                             <li class="relative">
                                                 <a class="animate-default center-vertical-image"
                                                     href="home_v2.html"><img src="img/home_2_menu-min.png"
                                                         alt=""></a>
-                                                <p><a href="home_v2.html">Дом 2</a></p>
+                                                <p><a href="shop_homeV2">Дом 2</a></p>
                                             </li>
                                             <li class="relative">
                                                 <a class="animate-default center-vertical-image"
                                                     href="home_v3.html"><img src="img/home_3_menu-min.png"
                                                         alt=""></a>
-                                                <p><a href="home_v3.html">Дом 3</a></p>
+                                                <p><a href="shop_homeV3">Дом 3</a></p>
                                             </li>
                                         </ul>
                                     </li>
@@ -482,45 +483,45 @@
                                             <ul>
                                                 <li>Тип категории</li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="category_v1.html">Категория v1</a></li>
+                                                        href="shop_categoryV1">Категория v1</a></li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="category_v1_2.html">Категория v1.2</a></li>
+                                                        href="shop_categoryV1_2">Категория v1.2</a></li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="category_v2.html">Категория v2</a></li>
+                                                        href="shop_categoryV2">Категория v2</a></li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="category_v2_2.html">Категория v2.2</a></li>
+                                                        href="shop_categoryV2_2">Категория v2.2</a></li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="category_v3.html">Категория v3</a></li>
+                                                        href="shop_categoryV3">Категория v3</a></li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="category_v3_2.html">Категория v3.2</a></li>
+                                                        href="shop_categoryV3_2">Категория v3.2</a></li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="category_v4.html">Категория v4</a></li>
+                                                        href="shop_categoryV4">Категория v4</a></li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="category_v4_2.html">Категория v4.2</a></li>
+                                                        href="shop_categoryV4_2">Категория v4.2</a></li>
                                             </ul>
                                             <ul>
                                                 <li>Один тип продукта</li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="product_v1.html">Одноместный продукт 1</a></li>
+                                                        href="shop_productV1">Одноместный продукт 1</a></li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="product_v2.html">Одноместный продукт 2</a></li>
+                                                        href="shop_productV2">Одноместный продукт 2</a></li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="product_v3.html">Одноместный продукт 3</a></li>
+                                                        href="shop_productV3">Одноместный продукт 3</a></li>
                                             </ul>
                                             <ul>
                                                 <li>Страница заказа</li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="cartpage.html">Страница корзины</a></li>
+                                                        href="shop_cartpage">Страница корзины</a></li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="checkout.html">Проверить</a></li>
+                                                        href="shop_checkout">Проверить</a></li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="compare.html">Сравнивать</a></li>
+                                                        href="shop_compare">Сравнивать</a></li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="quickview.html">Быстрый просмотр</a></li>
+                                                        href="shop_quickview">Быстрый просмотр</a></li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="trackyourorder.html">Отследить заказ</a></li>
+                                                        href="shop_trackyourorder">Отследить заказ</a></li>
                                                 <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                        href="wishlist.html">Список желаний</a></li>
+                                                        href="shop_wishlist">Список желаний</a></li>
                                             </ul>
                                         </div>
                                     </li>
@@ -528,20 +529,20 @@
                                         <a class="animate-default" href="#">Страницы</a>
                                         <ul>
                                             <li class="title-hover-red"><a class="animate-default"
-                                                    href="about.html">О нас</a></li>
+                                                    href="shop_about">О нас</a></li>
                                             <li class="title-hover-red"><a class="animate-default"
-                                                    href="contact.html">Контакты</a></li>
+                                                    href="shop_contact">Контакты</a></li>
                                             <li class="title-hover-red"><a class="animate-default"
-                                                    href="404.html">404</a></li>
+                                                    href="shop_404">404</a></li>
                                         </ul>
                                     </li>
                                     <li class="title-hover-red">
                                         <a class="animate-default" href="#">Блог</a>
                                         <ul>
                                             <li class="title-hover-red"><a class="animate-default"
-                                                    href="blog.html">Категория блога</a></li>
+                                                    href="shop_blog">Категория блога</a></li>
                                             <li class="title-hover-red"><a class="animate-default"
-                                                    href="blogdetail.html">Детали блога</a></li>
+                                                    href="shop_blogdetail">Детали блога</a></li>
                                         </ul>
                                     </li>
                                 </ul>

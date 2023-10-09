@@ -14,6 +14,16 @@ use App\Models\Order;
 
 class myShopController extends Controller
 {
+    public function index()
+    {
+        // return "I am confrollwer!";
+        // $MyShop_array = [];
+        // foreach (MyShop::all() as $MyShop) {
+        //     $MyShop_array[] = $MyShop->MyShopname;
+        // }
+
+        return view('MyShop.index');
+    }
     public function shop_404()
     {
         // return "I am confrollwer!";
@@ -224,10 +234,83 @@ class myShopController extends Controller
     }
     public function registration()
     {
-        // $MyShop_array = [];
-        // foreach (MyShop::all() as $MyShop) {
-        //     $MyShop_array[] = $MyShop->MyShopname;
-        // }
+    //     function connect(
+    //         $host='localhost',
+    //         $user='root',
+    //         $pass='',
+    //         $dbname='MyShop')
+    //         {
+    //             $cs = 'mysql:host=' . $host . ';dbname=' . $dbname . ';charset=utf8;';
+    //             $options = array(
+    //                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+    //                 PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+    //                 PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES UTF8'
+    //             );
+    //             try {
+    //                 $pdo = new PDO($cs, $user, $pass, $options);
+    //                 return $pdo;
+    //             } catch (PDOException $e) {
+    //                 echo $e->getMessage();
+    //                 return false;
+    //             }
+    //         }
+
+    // function register($name,$pass,$email){
+    //     $name=trim(htmlspecialchars($name));
+    //     $pass=trim(htmlspecialchars($pass));
+    //     $email=trim(htmlspecialchars($email));
+    //     if ($name=="" || $pass=="" || $email=="") {
+    //         echo "<h3/><span style='color:red;'>Fill All Required Fields!</span><h3/>";
+    //         return false;
+    //     }
+    //     if (strlen($name)<3 || strlen($name)>30 || strlen($pass)<3 || strlen($pass)>30) {
+    //         echo "<h3/><span style='color:red;'>Values Length Must Be Between 3 And 30!</span><h3/>";
+    //         return false;
+    //     }
+    //     $ins='insert into users (login,pass,email,roleid) values("'.$name.'","'.md5($pass).'","'.$email.'",1)';
+    //     $pdo = connect();
+    //     try {
+    //         $pdo->exec($ins);
+    //     } catch (PDOException $e) {
+    //         echo 'Error: ' . $e->getMessage() . '<br>';
+    //         exit();
+    //     }
+    //     return true;
+    // }
+
+    // function login($name,$pass)
+    // {
+    //     $name=trim(htmlspecialchars($name));
+    //     $pass=trim(htmlspecialchars($pass));
+    //     if ($name=="" || $pass=="")
+    //     {
+    //         echo "<h3/><span style='color:red;'>Fill All Required Fields!</span><h3/>";
+    //         return false;
+    //     }
+    //     if (strlen($name)<3 || strlen($name)>30 || strlen($pass)<3 || strlen($pass)>30) {
+    //         echo "<h3/><span style='color:red;'>Values Length Must Be Between 3 And 30!</span><h3/>";
+    //         return false;
+    //     }
+    //     $pdo = connect();
+    //     $sel='select * from users where login="'.$name.'"
+    //     and pass="'.md5($pass).'"';
+
+    //     $ps = $pdo->prepare($sel);
+    //     $ps->execute();
+    //     if ($row = $ps->fetch()) {
+    //         $_SESSION['ruser']=$name;
+    //         if($row[5]==0)
+    //         {
+    //             $_SESSION['radmin']=$name;
+    //         }
+    //         return true;
+    //     }
+    //     else{
+    //         echo "<h3/><span style='color:red;'>No Such User!</span><h3/>";
+    //         return false;
+    //     }
+
+    // }
 
         return view('MyShop.shop_registration');
     }
