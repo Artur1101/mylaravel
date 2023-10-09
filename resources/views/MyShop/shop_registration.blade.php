@@ -2,7 +2,7 @@
 
 <h3>ФОРМА ДЛЯ РЕГИСТРАЦИИ</h3>
 <?php
-if (!isset($_GET['regbtn'])) {
+if (!isset($_POST['regbtn'])) {
     ?>
     <form action="" method="GET">
         <div class="form-group">
